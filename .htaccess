@@ -1,0 +1,26 @@
+#ErrorDocument 301 /liamgrant/error.php
+#ErrorDocument 400 /liamgrant/error.php
+#ErrorDocument 401 /liamgrant/error.php
+#ErrorDocument 403 /liamgrant/error.php
+#ErrorDocument 404 /liamgrant/error.php
+#ErrorDocument 500 /liamgrant/error.php
+
+#<IfModule mod_headers.c>
+#  Header set Cache-Control "no-cache, no-store, must-revalidate"
+#  Header set Pragma "no-cache"
+#</IfModule>
+
+<IfModule mod_headers.c>
+  Header unset ETag
+  Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+</IfModule>
+  
+#<IfModule mod_headers.c>
+#  <FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css|css|woff2)$">
+#    Header set Access-Control-Allow-Origin "*"
+#    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+#    Header set Access-Control-Allow-Headers "Content-Type"
+#  </FilesMatch>
+#</IfModule>

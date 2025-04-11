@@ -1,0 +1,11 @@
+admin-panel-01|Login Page|Login page with integrated, required Captcha to continue
+admin-panel-02|Main Page|Main edit page with basic operations and active sliders to confirm shows via AJAX
+admin-panel-03|Add Listing|Adds a new show date with jQuery Validator support for required fields
+admin-panel-04|Modify Listing|Updates listings with jQuery Validator support for required fields
+admin-panel-05|Delete Listings|Delete a range of show listings
+admin-panel-06|Error Alert Box|Example of alert box reporting an error
+admin-panel-07|Import Listings|Import listings in a CSV file
+admin-panel-08|Change Password|Change password, requires Captcha confirmation and tests new password strength
+admin-panel-09|Framework Diagram|Basic framework design and flowchart
+admin-panel-10|Main Page Listings|Two weeks' upcoming shows on main page
+admin-panel-11|Listings Page|All upcoming shows on "live" page
